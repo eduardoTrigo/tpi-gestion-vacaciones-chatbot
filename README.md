@@ -116,6 +116,38 @@ python src/chatbot_vacaciones.py
 
 ---
 
+MANUAL DE USUARIO
+
+Objetivo: Permitir a los empleados realizar solicitudes de vacaciones mediante un chatbot de forma rápida y sencilla.
+Inicio del sistema
+    1. Abrir la conversación con el chatbot.
+    2. Ingresar el número de legajo solicitado.
+    3. Verificar la cantidad de días disponibles informados por el sistema.
+    4. Ingresar la cantidad de días de vacaciones deseados.
+    5. Esperar la validación automática de la solicitud.
+
+Posibles resultados
+
+Solicitud aprobada:
+    • El sistema registra la operación.
+    • Se actualiza el saldo disponible.
+    • Se informa la aprobación al empleado.
+
+Solicitud rechazada:
+    • El sistema informa el motivo del rechazo.
+    • El saldo permanece sin modificaciones.
+
+Recomendaciones
+    • Ingresar únicamente valores numéricos.
+    • Verificar el número de legajo antes de enviarlo.
+    • Solicitar una cantidad de días igual o inferior al saldo disponible.
+
+Mensajes de error contemplados
+    • Legajo inexistente.
+    • Cantidad de días inválida.
+    • Saldo insuficiente.
+    • Datos ingresados incorrectamente.
+
 ## Casos Contemplados
 
 ### Camino Feliz
@@ -156,5 +188,5 @@ Universidad Tecnológica Nacional
 
 
 
-Eduardo Trigo
-Tomas Ignacio Acevedo Peña
+- Eduardo Trigo
+- Tomas Ignacio Acevedo Peña
