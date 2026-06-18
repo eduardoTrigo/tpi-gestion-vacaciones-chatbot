@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Cargar base de datos simulada
-archivo = "datos/empleados.xlsx"
+archivo = "empleados.xlsx"
 
 try:
     empleados = pd.read_excel(archivo)
@@ -12,6 +12,7 @@ except FileNotFoundError:
 print("=" * 40)
 print("SISTEMA DE GESTIÓN DE VACACIONES")
 print("=" * 40)
+print("¡Hola! Soy el asistente virtual de vacaciones.")
 
 # Solicitar legajo
 legajo = input("Ingrese su número de legajo: ")
@@ -33,7 +34,7 @@ if empleado.empty:
 
 # Obtener datos
 nombre = empleado.iloc[0]["Nombre"]
-saldo = empleado.iloc[0]["DiasDisponibles"]
+saldo = int(empleado.iloc[0]["DiasDisponibles"])
 
 print(f"\nEmpleado: {nombre}")
 print(f"Días disponibles: {saldo}")
@@ -73,3 +74,5 @@ else:
 
     print("\nSolicitud RECHAZADA")
     print("No posee días suficientes.")
+
+print("\nGracias por usar el sistema. ¡Hasta luego!")
