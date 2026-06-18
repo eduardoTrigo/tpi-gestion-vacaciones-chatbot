@@ -1,0 +1,33 @@
+# Archivos de datos sensibles / generados en runtime
+empleados.xlsx
+*.xlsx
+!empleados_ejemplo.xlsx
+
+# Entornos virtuales de Python
+venv/
+env/
+.venv/
+ENV/
+
+# Cachés y bytecode de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+*.swp
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribución / empaquetado de Python
+build/
+dist/
+*.egg-info/
