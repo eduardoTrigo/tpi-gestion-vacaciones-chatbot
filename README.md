@@ -5,7 +5,7 @@
 ### Integrantes
 
 * Eduardo Trigo
-* [Nombre de tu compañero]
+* Tomas Ignacio Acevedo Peña
 
 ---
 
@@ -49,13 +49,9 @@ La solución fue diseñada utilizando BPMN 2.0 para modelar el proceso de negoci
 
 tpi-gestion-vacaciones-chatbot/
 
-├── docs/
-
 ├── datos/
 
 │ └── empleados.xlsx
-
-├── evidencias/
 
 ├── src/
 
@@ -64,6 +60,8 @@ tpi-gestion-vacaciones-chatbot/
 ├── README.md
 
 ├── requirements.txt
+
+├── DiagramasBPMN
 
 └── .gitignore
 
@@ -98,7 +96,7 @@ Campos utilizados:
 
 Clonar repositorio:
 
-git clone URL_DEL_REPOSITORIO
+git clone tpi-gestion-vacaciones-chatbot
 
 Ingresar al proyecto:
 
@@ -158,4 +156,5 @@ Universidad Tecnológica Nacional
 
 
 
-[Nombre de los Integrantes]
+Eduardo Trigo
+Tomas Ignacio Acevedo Peña
